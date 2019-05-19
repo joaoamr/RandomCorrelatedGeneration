@@ -1,6 +1,15 @@
 from random import gauss
 
-#Generate n random float pairs with a determined Pearson's correlation coefficient
+'''
+Generate n random float pairs with a determined Pearson's correlation coefficient
+*n is the number of pairs of X and Y
+*p is Pearson's correlatin coefficient
+*x_av is the average of X
+*x_sd is the standard deviation of X
+*y_av is the average of Y
+*y_sd is the standard deviation of Y
+'''
+
 def pearsonspairs(n, p, x_av, x_sd, y_av, y_sd):
     x = []
     y = []
